@@ -2,11 +2,13 @@ package com.company;
 import java.util.ArrayList;
 public class Main {
 
-    public static void main(String[] args) {
+    public static <items> void main(String[] args) {
 
-        ArrayList<Items> items = new ArrayList<items>();
+        ArrayList<items> items = new ArrayList<items>();
 
+        items orange;
         items.add(orange);
+        items apple;
         items.add(apple);
 
         Double [] price = {0.25, 0.60};
